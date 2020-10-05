@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ics45c/projects/proj3/app/HashMap.cpp
+HashMap.hpp
+/home/ics45c/projects/proj3/app/HashMap.hpp
+string
+-
+math.h
+-
+iostream
+-
+
+/home/ics45c/projects/proj3/app/HashMap.hpp
+functional
+-
+string
+-
+
+/home/ics45c/projects/proj3/app/authentication.cpp
+authentication.hpp
+/home/ics45c/projects/proj3/app/authentication.hpp
+iostream
+-
+sstream
+-
+
+/home/ics45c/projects/proj3/app/authentication.hpp
+string
+-
+HashMap.hpp
+/home/ics45c/projects/proj3/app/HashMap.hpp
+
+/home/ics45c/projects/proj3/app/main.cpp
+authentication.hpp
+/home/ics45c/projects/proj3/app/authentication.hpp
+
